@@ -1,0 +1,60 @@
+﻿@model Userlogin
+@{
+    ViewData["Title"] = "Register";
+}
+<div id="popup" class="container shadow p-5">
+    <h1>Register</h1>
+    @using (Html.BeginForm("Register", "Login", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="row">
+        <div class="col-md-12">
+            <form method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <div class="form-group">
+                    <label asp-for="firstname">First Name</label>
+                    <input asp-for="firstname" class="form-control mb-3" />
+                    <span asp-validation-for="firstname" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="lastname">Last Name</label>
+                    <input asp-for="lastname" class="form-control mb-3" />
+                    <span asp-validation-for="lastname" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="username">User Name</label>
+                    <input asp-for="username" class="form-control mb-3" />
+                    <span asp-validation-for="username" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Password">Password</label>
+                    <input asp-for="Password" class="form-control mb-3" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="ConfirmPassword">Confirm Password</label>
+                    <input asp-for="ConfirmPassword" class="form-control  mb-3y"  />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.img, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            <input type="file" name="img" />
+                            @Html.ValidationMessageFor(model => model.img, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                  <div>
+                    <button type="submit" class="btn-primary">Register</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    }
+</div>

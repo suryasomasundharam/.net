@@ -1,0 +1,57 @@
+html {
+  font-size: 14px;
+  
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 100px;
+}
+body, html {
+    width: 100%;
+    height: auto;
+}
+body {
+    background-image: url('/css/download.jpg');
+    background-size: 100%,100%;
+    background-repeat:no-repeat;
+    margin: 0;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+a:link, a:visited {
+    background-color: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    a: hover, a:active {
+    background-color:springgreen;
+}
+
+
+/*.element {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/

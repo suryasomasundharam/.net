@@ -1,0 +1,60 @@
+﻿@model newproject2.Models.SalaryModel
+
+
+@{
+    ViewData["Title"] = "salary";
+}
+@{
+var salary=ViewBag.salary;
+}
+<p> salary details</p>
+<p> basic salary </p>
+<p id="one"> @salary </p>
+<p>Calculation of Leave Salary Deduction</p>
+<p id="two">  </p>
+<p>Calculation of pf Deduction</p>
+<p id="three">  </p>
+<p>Calculation of tax Deduction</p>
+<p id="four">  </p>
+<p>total net salary </p>
+<p id="total">  </p>
+
+<script>
+    var value = document.getElementById('one').innerHTML;
+    var net_sal1 = parseInt(value);
+
+
+    //Calculation of Leave Salary Deduction
+    var abc = (net_sal1 / 30) * 2;
+    var abc1 = parseInt(abc);
+    document.getElementById('two').innerHTML = abc1;
+
+    //Calculation of pf deduction
+    var abcd = 2500;
+    var abc3 = parseInt(abcd);
+    document.getElementById('three').innerHTML = abc3;
+    var abc2;
+    //Calculation of tax deduction
+    if (value < 50000) {
+         abc2 = 0;
+        document.getElementById('four').innerHTML = abc2;
+    }
+    else if (value < 100000 && value > 50000) {
+        abc2 = (parseInt(value)/100)*10;
+        document.getElementById('four').innerHTML = abc2;
+    }
+    else {
+        abc2 = (parseInt(value) / 100) * 20;
+        document.getElementById('four').innerHTML = abc2;
+    }
+    var b = parseInt(abc + abc3 + abc2);
+    b = parseInt(value) - b;
+
+
+    //Displaying Total Deduction
+ 
+    document.getElementById('total').innerHTML = b;
+    console.log(value);
+
+
+</script>

@@ -1,0 +1,966 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\10457\\source\\repos\\newproject2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\js\\emp.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:wwwroot\\js\\emp.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\source\\repos\\newproject2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\controllers\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:controllers\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\employeemodels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\employeemodels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\employeemodels\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\employeemodels\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\login\\logins.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\login\\logins.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\login\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\login\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\controllers\\employeemodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:controllers\\employeemodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\employeedbcontext\\employeedetailsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:employeedbcontext\\employeedetailsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\models\\loginfirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:models\\loginfirst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\models\\mulmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:models\\mulmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\employeemodels\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\employeemodels\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\js\\experience.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:wwwroot\\js\\experience.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\models\\salarymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:models\\salarymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\employeemodels\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\employeemodels\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|c:\\users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentfiles\\any\\any\\wwwroot\\css\\bootstrap.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\js\\details.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:wwwroot\\js\\details.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\newproject2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:newproject2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\newproject2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:newproject2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\Migrations\\20240318104940_employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:Migrations\\20240318104940_employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\models\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:models\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\employeemodels\\salary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\employeemodels\\salary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\10457\\source\\repos\\newproject2\\employeedbcontext\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:employeedbcontext\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|C:\\Users\\10457\\source\\repos\\newproject2\\Migrations\\20240318112409_employeelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E5C940-0E8E-41DF-9EF7-90208203F4F1}|newproject2.csproj|solutionrelative:Migrations\\20240318112409_employeelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T07:22:30.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Controllers\\Login.cs",
+              "RelativeDocumentMoniker": "Controllers\\Login.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Controllers\\Login.cs",
+              "RelativeToolTip": "Controllers\\Login.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAADwv3sAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:16:08.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "Controllers\\ProjectsController.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T10:52:13.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T09:30:35.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T12:19:28.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "profile.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Controllers\\profile.cs",
+              "RelativeDocumentMoniker": "Controllers\\profile.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Controllers\\profile.cs",
+              "RelativeToolTip": "Controllers\\profile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T10:19:23.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "emp.js",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\js\\emp.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\emp.js",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\js\\emp.js",
+              "RelativeToolTip": "wwwroot\\js\\emp.js",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAlwJwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-23T06:16:22.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\EmployeeModels\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmployeeModels\\Index.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\EmployeeModels\\Index.cshtml",
+              "RelativeToolTip": "Views\\EmployeeModels\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T09:12:08.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Projects\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Projects\\Index.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Projects\\Index.cshtml",
+              "RelativeToolTip": "Views\\Projects\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T06:18:59.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Logins.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\login\\Logins.cshtml",
+              "RelativeDocumentMoniker": "Views\\login\\Logins.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\login\\Logins.cshtml",
+              "RelativeToolTip": "Views\\login\\Logins.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T12:47:41.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-28T13:09:19.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\EmployeeModels\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmployeeModels\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\EmployeeModels\\Edit.cshtml",
+              "RelativeToolTip": "Views\\EmployeeModels\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T09:12:25.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Projects\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Projects\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Projects\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Projects\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T09:42:53.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\login\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\login\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\login\\Profile.cshtml",
+              "RelativeToolTip": "Views\\login\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T09:37:49.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmployeeModelsController.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Controllers\\EmployeeModelsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeModelsController.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Controllers\\EmployeeModelsController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeModelsController.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAArwOcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T10:51:34.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\Profile.cs",
+              "RelativeDocumentMoniker": "Models\\Profile.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\Profile.cs",
+              "RelativeToolTip": "Models\\Profile.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T10:10:08.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmployeeDetailsDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\EmployeeDBContext\\EmployeeDetailsDBContext.cs",
+              "RelativeDocumentMoniker": "EmployeeDBContext\\EmployeeDetailsDBContext.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\EmployeeDBContext\\EmployeeDetailsDBContext.cs",
+              "RelativeToolTip": "EmployeeDBContext\\EmployeeDetailsDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T10:13:37.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Userlogin.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\Userlogin.cs",
+              "RelativeDocumentMoniker": "Models\\Userlogin.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\Userlogin.cs",
+              "RelativeToolTip": "Models\\Userlogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:31:10.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "Models\\EmployeeModel.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\EmployeeModel.cs",
+              "RelativeToolTip": "Models\\EmployeeModel.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T12:56:25.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\login\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\login\\Register.cshtml",
+              "RelativeToolTip": "Views\\login\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T11:59:39.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MulModel.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\MulModel.cs",
+              "RelativeDocumentMoniker": "Models\\MulModel.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\MulModel.cs",
+              "RelativeToolTip": "Models\\MulModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T06:53:55.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "loginfirst.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\loginfirst.cs",
+              "RelativeDocumentMoniker": "Models\\loginfirst.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\loginfirst.cs",
+              "RelativeToolTip": "Models\\loginfirst.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T07:28:08.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\EmployeeModels\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmployeeModels\\Create.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\EmployeeModels\\Create.cshtml",
+              "RelativeToolTip": "Views\\EmployeeModels\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T10:57:27.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SalaryModel.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\SalaryModel.cs",
+              "RelativeDocumentMoniker": "Models\\SalaryModel.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\SalaryModel.cs",
+              "RelativeToolTip": "Models\\SalaryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T07:28:30.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "experience.js",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\js\\experience.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\experience.js",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\js\\experience.js",
+              "RelativeToolTip": "wwwroot\\js\\experience.js",
+              "ViewState": "AQIAACAAAAAAAAAAAAAxwDMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-28T12:01:37.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T07:14:56.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:36:34.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T13:06:50.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\EmployeeModels\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmployeeModels\\Details.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\EmployeeModels\\Details.cshtml",
+              "RelativeToolTip": "Views\\EmployeeModels\\Details.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T09:00:40.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-24T14:25:09.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-13T11:49:39.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "bootstrap-grid.css",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-24T12:40:41.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "bootstrap-utilities.rtl.css.map",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T06:38:52.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "bootstrap.js",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-24T06:40:08.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "bootstrap-utilities.rtl.min.css.map",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T06:38:54.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "bootstrap-utilities.min.css.map",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T06:38:48.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "bootstrap-utilities.min.css",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-24T06:38:45.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "bootstrap-utilities.css.map",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T06:38:44.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "bootstrap-reboot.rtl.min.css",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-24T06:38:41.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "bootstrap-reboot.rtl.css.map",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T06:38:40.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "bootstrap-reboot.min.css.map",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T06:38:37.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "bootstrap-reboot.css.map",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T06:38:34.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "bootstrap-grid.min.css.map",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T06:38:30.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "bootstrap-grid.css.map",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T06:38:27.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "bootstrap.min.css.map",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T06:38:23.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-24T06:38:21.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "bootstrap.css.map",
+              "DocumentMoniker": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+              "ToolTip": "C:\\Users\\10457\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\bootstrap\\5.2.0\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-24T06:38:01.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-18T11:31:08.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "details.js",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\js\\details.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\details.js",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\js\\details.js",
+              "RelativeToolTip": "wwwroot\\js\\details.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-17T11:05:21.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-28T11:22:17.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Projects\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Projects\\Create.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Projects\\Create.cshtml",
+              "RelativeToolTip": "Views\\Projects\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T12:34:16.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "newproject2.csproj",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\newproject2.csproj",
+              "RelativeDocumentMoniker": "newproject2.csproj",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\newproject2.csproj",
+              "RelativeToolTip": "newproject2.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-01T12:47:13.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "newproject2",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\newproject2.csproj",
+              "RelativeDocumentMoniker": "newproject2.csproj",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\newproject2.csproj",
+              "RelativeToolTip": "newproject2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-15T12:30:44.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20240318104940_employeedetails.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Migrations\\20240318104940_employeedetails.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240318104940_employeedetails.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Migrations\\20240318104940_employeedetails.cs",
+              "RelativeToolTip": "Migrations\\20240318104940_employeedetails.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T10:49:40.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T13:01:37.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Page.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\Page.cs",
+              "RelativeDocumentMoniker": "Models\\Page.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Models\\Page.cs",
+              "RelativeToolTip": "Models\\Page.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T05:48:57.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Salary.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\EmployeeModels\\Salary.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmployeeModels\\Salary.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\EmployeeModels\\Salary.cshtml",
+              "RelativeToolTip": "Views\\EmployeeModels\\Salary.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T07:38:13.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T06:49:37.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20240318112409_employeelogin.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\Migrations\\20240318112409_employeelogin.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240318112409_employeelogin.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\Migrations\\20240318112409_employeelogin.cs",
+              "RelativeToolTip": "Migrations\\20240318112409_employeelogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T11:24:09.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EmployeeDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\10457\\source\\repos\\newproject2\\EmployeeDBContext\\EmployeeDBContext.cs",
+              "RelativeDocumentMoniker": "EmployeeDBContext\\EmployeeDBContext.cs",
+              "ToolTip": "C:\\Users\\10457\\source\\repos\\newproject2\\EmployeeDBContext\\EmployeeDBContext.cs",
+              "RelativeToolTip": "EmployeeDBContext\\EmployeeDBContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T11:50:57.958Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

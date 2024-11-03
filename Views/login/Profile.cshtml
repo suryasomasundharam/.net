@@ -1,0 +1,29 @@
+﻿@model newproject2.Models.Userlogin
+@{
+    ViewData["Title"] = "Profile";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Details</title>
+    <style>
+        img {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>@Model.username Details</h1>
+    @{
+        var str = @Model.img;
+    }
+    <img src="@Html.DisplayFor(model => str)" alt="Paris" width="100" height="100" />
+
+    <p>First Name: @Model.firstname</p>
+    <p>Last Name: @Model.lastname</p>
+
+ 
+  
+    
+</body>
+</html>

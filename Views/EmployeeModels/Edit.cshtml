@@ -1,0 +1,218 @@
+﻿<html lang="en">
+@model newproject2.Models.EmployeeModel
+
+@{
+    ViewData["Title"] = "Edit";
+
+}
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="~/js/jquery.js" asp-append-version="true"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+@* <div class="modal fade" id="Edit-@Model.Id" >
+<h4>@Model.Id </h4>
+</div> *@
+@* 
+          <h1>heloo</h1>
+<h1>Edit</h1>
+
+ <h4>EmployeeModel</h4> *@
+<hr />
+@* <div class="form-popup" id="myForm">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mobile" class="control-label"></label>
+                <input asp-for="Mobile" class="form-control" />
+                <span asp-validation-for="Mobile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Role" class="control-label"></label>
+                <input asp-for="Role" class="form-control" />
+                <span asp-validation-for="Role" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="joining_date" class="control-label"></label>
+                <input asp-for="joining_date" class="form-control" />
+                <span asp-validation-for="joining_date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Salary" class="control-label"></label>
+                <input asp-for="Salary" class="form-control" />
+                <span asp-validation-for="Salary" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Project_id" class="control-label"></label>
+                <select asp-for="Project_id" class="form-control" asp-items="ViewBag.Project_id"></select>
+                <span asp-validation-for="Project_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary"id="save"       
+                </div>
+
+            <div>
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+ *@
+
+
+
+
+
+    <div class="modal fade" id="myForm" data-backdrop="static" data-keyboard="false" role="dialog" aria-labelledby="EditModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="EditModalLabel">Edit employee</h5>
+                    <button type="button" asp-action="Index" class="close" id="modalClose" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <input type="text" id="myInput" />    
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" /> 
+                        <div class="form-group">
+                        <input type="hidden" asp-for="Id" />
+                            <label asp-for="FirstName" class="control-label"></label>
+                            <input asp-for="FirstName" class="form-control" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="LastName" class="control-label"></label>
+                            <input asp-for="LastName" class="form-control" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Mobile" class="control-label"></label>
+                            <input asp-for="Mobile" class="form-control" />
+                            <span asp-validation-for="Mobile" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Role" class="control-label"></label>
+                            <input asp-for="Role" class="form-control" />
+                            <span asp-validation-for="Role" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="joining_date" class="control-label"></label>
+                            <input asp-for="joining_date" class="form-control" />
+                            <span asp-validation-for="joining_date" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Salary" class="control-label"></label>
+                            <input asp-for="Salary" class="form-control" />
+                            <span asp-validation-for="Salary" class="text-danger"></span>
+                        </div> 
+                       <div class="form-group">
+                            <label asp-for="Project_id" class="control-label"></label>
+                            <input asp-for="Project_id" class="form-control" />
+                            <span asp-validation-for="Project_id" class="text-danger"></span>
+                        </div> 
+                        <div class="form-group">
+                            <label asp-for="Address" class="control-label"></label>
+                            <input asp-for="Address" class="form-control" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Save" class="btn btn-primary" id="save"
+                        </div>
+                    </form>
+               
+            </div> 
+         @*    <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>  *@
+            <div>
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+      
+            $('#modalClose').on('click', function () {
+                $('#myForm').hide();
+            })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+   @*  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    < *@script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+ @* <div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+@* <style>
+    .form-popup {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        right: 50%;
+        left: 23%;
+        /* bottom: 20%; */
+        top: 18%;
+        border: 5px solid #40b7a5;
+        z-index: 13;
+        width: 40%;
+        height: 80%;
+        padding: 7%;
+        padding-top: 7%;
+        padding-right: 7%;
+        padding-bottom: 7%;
+        padding-left: 7%;
+    }
+
+    .col-md-4{
+        top: 0%%;
+        height: 150%;
+        width: 80%;
+         border: 5px solid #000000;
+    }
+</style>
+
+ *@

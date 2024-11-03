@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - newproject2</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/newproject2.styles.css" asp-append-version="true" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/emp.js"></script>
+<style>
+    #head{
+    background-color:goldenrod;
+    color: black;
+    padding: 5px;
+    text-align: center; 
+    }
+
+        #log {
+            background-color: goldenrod;
+            color: black;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="head" asp-area="" asp-controller="Home" asp-action="Index">Employee portal</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                 @{
+                     var isAuthenticated = @User.Identity; // Or retrieve username from model/source
+                      }
+                <div id="isAuthenticated" >@User.Identity!.IsAuthenticated</div>
+               @{
+                     var username = @User.Identity.Name; // Or retrieve username from model/source
+                      }
+
+                 <div id="username">@username</div> `
+                <div id="content-container">  </div>
+           @*      <label class="col-form-label-sm" id="image" style="color:black; font-family:'Book Antiqua'; text-align:end">Hello @User.Identity.Name</label> *@
+                @if (User.Identity!.IsAuthenticated)
+                {
+                    @if (User.Identity.Name == "Surya") 
+
+                    {
+
+                        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                            <ul class="navbar-nav flex-grow-1">
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Projects" asp-action="Index">Project list</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeModels" asp-action="Index">Employee details</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Profile" asp-route-name="@User.Identity.Name">>profile</a>
+                                </li>
+                            </ul>
+
+
+
+                            <ul class="navbar-nav flex-row-reverse">
+                                <li class="nav-item btn-sm btn-danger">
+                                    <a class="nav-link" asp-controller="Login" asp-action="Logout" style="color:white; font-family:'Times New Roman'">Logout</a>
+                                </li>
+                                <li class="nav-item btn-sm btn-info"> 
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="login" asp-action="Register">Register</a>
+                                    @* <a class="nav-link text-dark" asp-area="" asp-controller="login" asp-action="Register">Register</a> *@
+                                </li>
+                                <strong>Profile Picture:</strong>
+                           
+                            </ul>
+                        </div>
+                    }
+                    else{
+                        <div id="profileContainer"></div>
+                       <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Projects" asp-action="Index">Project list</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeModels" asp-action="Index">Employee details</a>
+                            </li
+                                <li class="nav-item">
+                                @*     <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Profile" asp-route-name="@User.Identity.Name">profile</a> *@
+                                    <a class="nav-link text-dark" id=asp-area="" asp-controller="Login" asp-action="Profile" asp-route-username="@User.Identity.Name">profile</a>
+                                @*     <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Profile">profile</a> *@
+                                </li>
+                        </ul>
+
+
+
+                        <ul class="navbar-nav flex-row-reverse">
+                            <li class="nav-item btn-sm btn-danger">
+                                <a class="nav-link" asp-controller="Login" asp-action="Logout" style="color:white; font-family:'Times New Roman'">Logout</a>
+                            </li>
+                           
+                        <li class="nav-item">
+                        <label class="col-form-label-sm" style="color:black; font-family:'Book Antiqua'; text-align:end">Hello @User.Identity.Name</label>
+                        </li>
+
+                                <li class="nav-item">
+                                 @*    <label asp-for="usrimage" class="control-label"></label> *@
+                                  @*   @Html.DisplayFor(model => model.usrimage) *@
+                        @*             <label class="col-form-label-sm" > @User.</label> *@
+                                </li>
+                      @*   <li> <h4>&#128579;</h4></li> *@
+
+                            @*         <img style="margin-left:25px;" src="upload2/avatar.png" width="30" height="30" /> *@
+
+                        </ul>
+                    </div>
+                   }
+                }
+
+                else
+                {
+
+                    @*   <ul class="nav-item navbar-nav flex-row-reverse>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="login" asp-action="Register">Register</a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link text-dark" asp-area="" asp-controller="login" asp-action="Logins">login here</a>
+                       </li>
+                    </ul> *@
+                    <ul class="navbar-nav flex-row-reverse">
+                        <li class="nav-item btn-sm ">
+                            <a class="nav-link text-dark" id="log" asp-area="" asp-controller="login" asp-action="Logins">Login</a>
+                        </li>
+                    </ul>
+                }
+
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script>
+    $(document).ready(function () {
+    console.log("heloo");
+    var username = $('#username').val();
+    var t = $('#isAuthenticated').val() === 'true';
+    var profileLink = $('.nav-link[asp-action="Profile"]');
+
+    if (profileLink && t ) {
+        window.location.href = "/login/profile?username=" + username; // Less secure approach
+    }
+});
+</script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

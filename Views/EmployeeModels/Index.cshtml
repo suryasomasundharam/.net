@@ -1,0 +1,174 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@model IPagedList<newproject2.Models.EmployeeModel>
+@* @model Tuple<IPagedList<newproject2.Models.EmployeeModel>,IEnumerable<newproject2.Models.EmployeeModel>> *@
+@* @model IEnumerable<newproject2.Models.EmployeeModel> *@
+@* @model newproject2.Models.MulModel *@
+@{
+    ViewData["Title"] = "Index";
+}
+
+@* <script> 
+    alert("welcome to the index page ");
+</script> *@
+<script src="lib/jquery/dist/jquery.js"></script>
+<script src="~/js/experience.js"></script>
+<script src="~/js/jquery.js" asp-append-version="true"></script>
+<
+<h1>Index</h1>
+<style>
+    #delete{
+        background-color: #007bff;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    }
+
+    #salary {
+        background-color: #007bff;
+        color: black;
+        padding: 5px;
+        text-align: center;
+    }
+</style>
+
+
+@using (Html.BeginForm())
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+<table class="table" id="table_row">
+    <thead>
+        <tr>
+            <th>
+               @*  @Html.DisplayNameFor(model => model.FirstName) *@
+                <a asp-controller="EmployeeModels" asp-action="Index" asp-route-id="1">
+                    @Html.Label("FirstName")
+                </a>
+            </th>
+            <th>
+               @*  @Html.DisplayNameFor(model => model.LastName) *@
+                <a asp-controller="EmployeeModels" asp-action="Index" asp-route-id="1">
+                @Html.Label("LastName")
+                </a>
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Email) *@
+                 <a asp-controller="EmployeeModels" asp-action="Index" asp-route-id="1">
+                @Html.Label("Email")
+                </a>
+            </th>
+            <th>
+               @*  @Html.DisplayNameFor(model => model.Mobile) *@
+                <a asp-controller="EmployeeModels" asp-action="Index" asp-route-id="1">
+                @Html.Label("Mobile")
+                </a>
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Role) *@
+                 <a asp-controller="EmployeeModels" asp-action="Index" asp-route-id="1">
+                @Html.Label("FirstName")
+                </a>
+            </th>
+            <th >
+                @* @Html.DisplayNameFor(model => model.joining_date) *@
+                 <a asp-controller="EmployeeModels" asp-action="Index" asp-route-id="1">
+                @Html.Label("joining_date")
+                </a>
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Salary) *@
+                 <a asp-controller="EmployeeModels" asp-action="Index" asp-route-id="1">
+                @Html.Label("Salary")
+                </a>
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Address) *@
+                 <a asp-controller="EmployeeModels" asp-action="Index" asp-route-id="1">
+                @Html.Label("Address")
+                </a>
+            </th>
+            <th>
+                @* @Html.DisplayNameFor(model => model.Projects) *@
+                 <a asp-controller="EmployeeModels" asp-action="Index" asp-route-id="1">
+                @Html.Label("Projects")
+                </a>
+            </th>
+            <th>
+                <p>    </p>
+            </th>
+            <th>
+                <p>    </p>
+            </th>
+            <th>
+               <p>    </p>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            <tr>
+                <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mobile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role)
+            </td>
+                <td class="joining_date">
+                @Html.DisplayFor(modelItem => item.joining_date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Project_id)
+            </td>
+        
+                <td>
+             @*        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="@("#Edit-" + item.Id)" onclick="openForm()">
+                        Edit
+                    </button> *@
+                    <button type="button" id="btnShow" class="btn btn-primary" data-toggle="modal" data-target="@("#Edit-" + item.Id)" data-url="@Url.Action($"Edit/{@item.Id}")">
+                        Edit
+                    </button>
+                    @await Html.PartialAsync("Edit",item)
+                </td>
+              <td>
+                    <a class="nav-item btn-sm btn-primary" id="salary" asp-action="Salary" asp-route-id="@item.Id">salary</a>
+             </td>
+              <td>
+                    <a class="nav-item btn-sm btn-primary" id="delete" asp-action="Delete" asp-route-id="@item.Id" background-color="red">Delete </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<br />
+<div id='Paging' style="text-align:center">
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page})) 
+</div>
+
+
+
+<div id="test">  </div>
+<script src="~/js/emp.js"></script>
+
+    <a class="nav-item btn-sm btn-primary" asp-action="Create" >Add employee</a> 
